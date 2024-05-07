@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+}
+.mainheader{
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* object-fit: cover; */
+        box-shadow: 54px 39px 400px 104px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 54px 39px 400px 104px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 54px 39px 400px 104px rgba(0,0,0,0.75) inset;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px ;
+}
+.nav img{
+ width: 140px;
+ 
+}
+.nav .langopt select{
+ width: 100px;
+ height: auto;
+ padding: 10px;
+ background-color: transparent;
+ font-size: 16px;
+ color: white;
+}
+.nav .langopt button{
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    width: auto;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    
+}
+.centercontent{
+    margin-top: 100px;
+    height: 495px;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    gap: 30px;
+}
+.centercontent .text:nth-child(1){
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+}
+.centercontent .text:nth-child(2){
+    font-size: 25px;
+    color: white;
+}
+.centercontent .text:nth-child(3){
+    font-size: 25px;
+    color: white;
+}
+.maincentercontainer input{
+    width: 381px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    -webkit-box-shadow: inset 87px -48px 186px 70px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 87px -48px 186px 70px rgba(0,0,0,0.75);
+box-shadow: inset 87px -48px 186px 70px rgba(0,0,0,0.75);
+}
+.maincentercontainer button{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    width: 205px;
+    border: none;
+    border-radius: 7px;
+    height: 60px;
+}
+.maincentercontainer input::placeholder{
+    color: grey;
+    font-size: 20px;
+    padding: 15px;
+}
+hr{
+    height: 8px;
+    background-color: rgb(49, 48, 48);
+    border: none;
+    /* width: 100vw; */
+}
+.card{
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    /* width: 100vw; */
+   
+}
+
+.card .cardtext span{
+    display: block;
+}
+.card .cardtext span:nth-child(1){
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.card .cardtext span:nth-child(2){
+    color: white;
+    font-family: sans-serif; 
+    font-size: 20px;
+    text-align: left;   
+}
+.card .cardcontent img{
+   width: 500px;
+   /* width: 555px; */
+   position: relative;
+    height: auto;
+}
+.card2 .cardtext2{
+    order: 2;
+}
+.card2 .cardcontent2{
+    order: 1;
+}
+.card .cardcontent{
+    position: relative;
+}
+
+.vid1{
+    position: absolute;
+    top: 25px;
+    right: 73px;
+    width: 350px;
+    height: 300px;
+}
+.faqcontainer{
+    height: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faqcontainer .faqtxt{
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.faqcontainer .faqbtn{
+    display: flex;
+    flex-direction: column;
+  
+}
+.faqcontainer .faqbtn button{
+    width: 1000px;
+    height: 90px;
+    max-width: 60vw;
+    background-color: #2d2d2d;
+    border: none;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+.faqlogintxt{
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.faqlogindiv{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.faqlogindiv input{
+    width: 381px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    -webkit-box-shadow: inset 87px -48px 186px 70px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 87px -48px 186px 70px rgba(0,0,0,0.75);
+box-shadow: inset 87px -48px 186px 70px rgba(0,0,0,0.75);
+}
+.faqlogindiv button{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    width: 205px;
+    /* max-width: 60vw; */
+    border: none;
+    border-radius: 7px;
+    height: 60px;
+    margin-left: 10px;
+}
+.faqlogindiv input::placeholder{
+    color: grey;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+footer {
+    height: 400px;
+    color: white;
+    background-color: black;
+    /* margin: auto; */
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: space-between;
+    /* width: 100%; */
+}
+
+footer .questions {
+    color: rgba(255,255,255,0.7);
+    padding: 34px 0;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 210px;
+}
+
+.footer .footer-item{
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .footer .footer-item a{
+    padding-top: 20px;
+   color: rgba(255,255,255,0.7);
+}
+.langopt select{
+    /* width: 100px; */
+    height: auto;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+   }
+.lastname{
+    color: rgba(255,255,255,0.7);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+@media screen and (max-width: 960px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card .cardtext span{
+        display: block;
+    }
+    .card .cardtext span:nth-child(1){
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .card .cardtext span:nth-child(2){
+        color: white;
+        font-family: sans-serif; 
+        font-size: 20px;
+        text-align: center;   
+    }
+    .card2 .cardtext2{
+        order: 1;
+    }
+    .card2 .cardcontent2{
+        order: 2;
+    }
+    .faqcontainer .faqbtn button{
+        width: 1000px;
+        height: 90px;
+        max-width: 90vw;
+        background-color: #2d2d2d;
+        border: none;
+        font-size: 30px;
+        color: white;
+        margin-top: 10px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .faqlogintxt{
+        color: white;
+        font-size: 25px;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 620px) {
+    .maincentercontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .maincentercontainer button{
+        margin-top: 10px;
+    }
+    .centercontent .text{
+        text-align: center;
+    }
+    .centercontent .text:nth-child(1){
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .centercontent .text:nth-child(1){
+        font-size: 30px;
+        text-align: center;
+    }
+    .faqcontainer{
+        height: 1000px;
+    }
+    .faqlogindiv{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .faqlogindiv button{
+        margin-top: 10px;
+    }
+    .faqlogintxt{
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+}
